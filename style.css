@@ -1,0 +1,138 @@
+* Style umum */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Halaman 1 */
+.page1 {
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+}
+
+/* Halaman 2 */
+.page2 {
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.details {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
+/* Lokasi */
+.locations {
+  display: flex;
+  flex-direction: column; /* susun ke bawah */
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.location h2 {
+  margin-bottom: 10px;
+}
+
+.location img {
+  width: 100%;
+  max-width: 300px; /* batasi ukuran foto */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Foto Anniversary */
+.photo {
+  margin-top: 40px;
+}
+
+.photo img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Halaman 3 */
+.page3 {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #f1f1f1;
+}
+
+.page3 video {
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Halaman 4 */
+.page4 {
+  background: linear-gradient(to right, #1d4350, #a43931);
+  color: #fff;
+}
+
+.page4 h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.page4 p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Halaman 5 */
+.page4 {
+  background: linear-gradient(to right, #1d4350, #a43931); /* gradasi elegan */
+  color: #fff;
+}
+
+.page4 h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.page4 p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.page4 .photo img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  margin-top: 20px;
+}
+
+
+
